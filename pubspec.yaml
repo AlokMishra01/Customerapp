@@ -1,0 +1,64 @@
+name: home_service_provider
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  flutter_svg: ^1.1.5
+  pinput: ^2.2.13
+  carousel_slider: ^4.1.1
+  dots_indicator: ^2.1.0
+  dotted_line: ^3.1.0
+  syncfusion_flutter_datepicker: ^20.3.47
+  intl: ^0.17.0
+  flutter_masked_text2: ^0.9.1
+  cupertino_icons: ^1.0.5
+
+  # State Management
+  get_it: ^7.2.0
+  stacked: ^3.0.0
+
+  dio: ^4.0.6
+  flutter_loggy_dio: ^2.0.0+3
+  flutter_dotenv: ^5.0.2
+  flutter_easyloading: ^3.0.5
+
+  freezed_annotation: ^2.1.0
+  json_annotation: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  change_app_package_name: ^1.1.0
+  build_runner: ^2.2.1
+  freezed: ^2.1.1
+  json_serializable: ^6.4.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - .env
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Black.ttf
+        - asset: fonts/Lato-Bold.ttf
+          weight: 800
+        - asset: fonts/Lato-Light.ttf
+          weight: 200
+        - asset: fonts/Lato-Regular.ttf
+          weight: 400
+        - asset: fonts/Lato-Semibold.ttf
+          weight: 600
